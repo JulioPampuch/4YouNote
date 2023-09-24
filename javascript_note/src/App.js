@@ -1,10 +1,10 @@
-import './App.css';
+import './App.scss';
+import { Notification, Section } from 'rbx'
+import Header from './components/header';
 
 function App() {
   return (
-    <div>
-      test
-    </div>
+    <Header />
   );
 }
 
