@@ -1,16 +1,11 @@
-import { Notification, Section } from 'rbx';
-import './App.scss';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Section>
-        <Notification color="success">
-          JS notes
-        </Notification>
-      </Section>
-    </>
-  )
+    <div>
+      test
+    </div>
+  );
 }
 
 export default App;
