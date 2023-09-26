@@ -10,10 +10,10 @@ const Pages = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeScreen/>} />
-        <Route path='/register' element={RegisterScreen} />
-        <Route path='/login' element={LoginScreen} />
-        <Route path='/notes' element={NotesIndexScreen} />
-        <Route path='/users/edit' element={UsersEditScreen} />
+        <Route path='/register' element={<RegisterScreen/>} />
+        <Route path='/login' element={<LoginScreen/>} />
+        <Route path='/notes' element={<NotesIndexScreen/>} />
+        <Route path='/users/edit' element={<UsersEditScreen/>} />
       </Routes>
     </BrowserRouter>
   )
