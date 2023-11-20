@@ -15,18 +15,18 @@ const RegisterScreen = () => {
               <Card>
                 <Card.Content>
                   <Column size={12}>
-                      <img src={LogoImage} />
+                    <img src={LogoImage} />
                   </Column>
                   <Column size={12}>
                     <Title size={6} className="has-text-grey has-text-centered">
                       Your notes on the cloud
                     </Title>
                   </Column>
+                  <RegisterForm />
                 </Card.Content>
               </Card>
             </Column>
           </Column.Group>
-          <RegisterForm />
         </Container>
       </Section>
     </>
