@@ -7,7 +7,7 @@ const secret = process.env.JWT_TOKEN;
 
 router.post('/register', async (req, res) => {
   const { name, email, password } = req.body;
-  const user = new User({ name, email, password });
+  const user = new User({ name: name, email: email, password: password });
 
   try {
     await user.save();
